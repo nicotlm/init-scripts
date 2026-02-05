@@ -3,8 +3,9 @@
 # ---------------
 # Git
 # ---------------
-# To use git clone with automated PAT
+# To use git clone with automated PAT for github and git.lab.sspcloud.fr
 git config --global url."https://$GIT_PERSONAL_ACCESS_TOKEN@github.com/".insteadOf "https://github.com/"
+git config --global url."https://$GIT_SSP_PAT@git.lab.sspcloud".insteadOf "https://git.lab.sspcloud"
 
 # To avoid having to set the branch after having created it
 git config --global push.autoSetupRemote true
