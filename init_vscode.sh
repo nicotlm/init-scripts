@@ -21,6 +21,13 @@ alias ga='git add'
 EOT
 
 # ---------------
+# GH CLI
+# ---------------
+sudo apt update 
+sudo apt install gh 
+echo "$GH_CLI_TOKEN" | gh auth login --with-token
+
+# ---------------
 # VS Code
 # ---------------
 
