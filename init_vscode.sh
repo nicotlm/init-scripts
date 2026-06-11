@@ -25,7 +25,8 @@ EOT
 # ---------------
 sudo apt update 
 sudo apt install gh 
-echo "$GH_CLI_TOKEN" | gh auth login --with-token
+export GH_TOKEN="$GH_CLI_TOKEN"
+gh auth status
 
 # ---------------
 # VS Code
