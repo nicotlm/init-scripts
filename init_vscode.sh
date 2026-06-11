@@ -25,7 +25,7 @@ EOT
 # ---------------
 sudo apt update 
 sudo apt install gh 
-export GH_TOKEN="$GH_CLI_TOKEN"
+export GH_TOKEN=$GH_CLI_TOKEN
 gh auth status
 
 # ---------------
